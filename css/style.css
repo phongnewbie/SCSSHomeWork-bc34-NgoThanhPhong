@@ -1,1 +1,204 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: transparent;
+  visibility: initial;
+  opacity: 1;
+  width: 100%;
+  position: absolute;
+}
+header .navbar-brand {
+  position: relative;
+}
+header img {
+  width: 80px;
+  height: auto;
+}
+header .navbar-nav {
+  float: right;
+}
+header .navbar-nav .nav-item {
+  padding-left: 30px;
+}
+header ul li a {
+  color: #343a40;
+  font-weight: 600;
+  line-height: 80px;
+}
+header .socical a {
+  padding-top: 30px !important;
+}
+header .nav-link {
+  transition: 0.2;
+}
+header .nav-link:hover {
+  color: #b61984;
+}
+header .contactHeader {
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  font-size: 0.9em;
+}
+header .contactHeader a {
+  color: #343a40;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::after::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+}
+
+.carouselCenter {
+  display: block;
+}
+.carouselCenter img {
+  width: 100%;
+  height: auto;
+}
+.carouselCenter .pb-0 {
+  color: blue;
+}
+
+.superButton {
+  font-size: 0.9rem;
+  display: inline-block;
+  line-height: 1;
+  width: auto;
+}
+
+div.superButton.btLightAccentButton a {
+  box-shadow: 0 0 0 3em #b61984 inset;
+}
+
+.btIconWidgetIcon {
+  padding-right: 0.5em;
+}
+
+div.superButton.btLightAccentButton a {
+  color: #f8f9fa;
+}
+
+div.superButton a.superButtonLink {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  overflow: hidden;
+  padding: 1.1em 1.5em;
+  margin: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+  background: transparent;
+  transition: all 300ms ease;
+}
+
+.superButton a {
+  border-radius: 50px;
+  margin-left: 100px;
+}
+
+div.superButton.btLightAccentButton a:hover {
+  color: #b61984;
+  box-shadow: 0 0 0 1px #b61984 inset;
+}
+
+.superButtonText {
+  margin-left: 200px;
+}
+
+.img_bottom {
+  padding-top: 200px;
+}
+.img_bottom img {
+  padding-top: 40px;
+  width: 100%;
+}
+
+.bottom {
+  padding-left: 150px;
+  color: #f8f9fa;
+}
+.bottom .d-flex {
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+.bottom span {
+  padding: 5px 5px;
+  color: #f8f9fa;
+}
+.bottom .bottom_2 a, .bottom .bottom_3 a {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+.bottom .bottom_2 .bottom_2_line, .bottom .bottom_3 .bottom_2_line {
+  padding-top: 10px;
+}
+.bottom input {
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.bottom .btn_bottom {
+  padding-top: 25px;
+  text-align: center;
+}
+.bottom .btnBottomLink {
+  border-radius: 50px;
+  padding: 14px 137px;
+  overflow: hidden;
+  background: white;
+  transition: all 300ms ease;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.bottom .btnBottomLink {
+  color: #343a40;
+}
+.bottom a:hover {
+  color: white;
+  background-color: #b61984;
+  text-decoration: none;
+  border-color: white;
+}
+.bottom .bottom_1, .bottom .bottom_2, .bottom .bottom_3, .bottom .bottom_4 {
+  padding-left: 60px;
+}
+
+.img_footer img {
+  margin-right: 30px;
+  max-width: 100%;
+}/*# sourceMappingURL=style.css.map */

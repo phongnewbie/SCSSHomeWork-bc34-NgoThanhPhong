@@ -4,11 +4,22 @@
   box-sizing: border-box;
 }
 
-*, *:after, *:before {
+*::after::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   background-repeat: no-repeat;
-}/*# sourceMappingURL=variable.css.map */
+}
+
+.carouselCenter {
+  display: block;
+}
+.carouselCenter img {
+  width: 100%;
+  height: auto;
+}
+.carouselCenter .pb-0 {
+  color: blue;
+}/*# sourceMappingURL=carousel.css.map */

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    *::after::before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    }
+
+.carouselCenter{
+    display: block;
+img{
+    width: 100%;
+    height: auto;
+}
+.pb-0{
+    color: blue;
+}
+
+}
